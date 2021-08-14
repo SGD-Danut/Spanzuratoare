@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spânzurătoare</title>
+	<!-- Bootstrap: CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="px-4 py-5 my-5 text-center">
+	    <img class="d-block mx-auto mb-4" src="images/0.PNG" alt="" width="172" id="gameImage">
+	    <h1 class="display-5 fw-bold">Spânzurătoare</h1>
+	    <div class="col-lg-6 mx-auto">
+	      <p class="lead mb-4">Alege cuvântul pentru ghicit.</p>
+	      <div class="resetGame">
+	      </div>
+	      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+	        <div class="input-group mb-3">
+			  <input type="text" class="form-control" placeholder="Cuvântul dumneavoastră..." aria-label="inputForWord" aria-describedby="button-addon" id="insertedWord">
+			  <button class="btn btn-outline-secondary" type="button" id="button-add" onclick="chooseTheWord()">Alege cuvânt</button>
+			</div>
+	      </div>
+	      <div id="displayedWord">
+	      </div>
+	      <div id="buttons">
+	      </div>
+	    </div>
+  	</div>
+  	<!-- My JavaScript file -->
+	<script src="js.js"></script>
+	<!-- Bootstrap: JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
