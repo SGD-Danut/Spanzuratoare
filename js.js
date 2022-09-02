@@ -6,7 +6,7 @@ let failedAttempts = 0;
 let guessedLetterrText = "Litere ghicite: ";
 
 function chooseTheWord() {
-	chosenWord = document.getElementById("insertedWord").value;
+	chosenWord = document.getElementById("insertedWord").value.toLowerCase();
 	createTheButtons();
 	showTheWord();
 }
